@@ -1,0 +1,32 @@
+* D:\Program Files (xtra)\all\CoolStuff\audio-power-amplifier\Simulations\Transformer.asc
+L1 N002 0 25 Rser=1
+L2 0 N001 1 Rser=1
+V1 N002 0 SINE(0 169.7 60) Rser=0
+L3 0 N004 1
+D1 N001 V+ D
+D2 V- N001 D
+D3 0 V+ D
+D4 V- 0 D
+D5 N004 N005 D
+D6 N008 N004 D
+D7 0 N005 D
+D8 N008 0 D
+C1 V+ 0 0.1µ
+C2 0 V- 0.1µ
+C3 V+ 0 0.1µ
+C4 0 V- 0.1µ
+R1 N003 INPUT 1k
+R2 0 N006 1k
+R3 N006 OUTPUT 20k
+C5 N007 0 0.1µ
+R4 N007 NC_01 100
+R5 OUTPUT 0 4
+V2 INPUT 0 SINE(0 1 5000k)
+XU1 N003 N006 V+ V- OUTPUT N007 lm3886
+.model D D
+.lib C:\Users\Eren\Documents\LTspiceXVII\lib\cmp\standard.dio
+K1 L1 L2 L3 1
+.tran 10
+.lib C:\Users\Eren\Downloads\snam041b\LM3886.lib
+.backanno
+.end

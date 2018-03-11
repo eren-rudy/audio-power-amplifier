@@ -1,0 +1,44 @@
+Circuit: * D:\Program Files (xtra)\all\CoolStuff\audio-power-amplifier\Simulations\Transformer.asc
+
+WARNING: Can't resolve .param ibrkv=1m)
+WARNING: Can't resolve .param ibrkv=1m)
+WARNING: Can't resolve .param ibrkv=1m)
+WARNING: Can't resolve .param ibrkv=1m)
+WARNING: Node U1:11 is floating.
+WARNING: Node U1:U_TF:VP1 is floating.
+WARNING: Node U1:U_TF:VP2 is floating.
+WARNING: Node U1:U_TF:VP3 is floating.
+WARNING: Node U1:U_TF:VP4 is floating.
+WARNING: Node U1:U_TF:VZ1 is floating.
+WARNING: Node U1:U_TF:VZ2 is floating.
+WARNING: Node U1:U_TF:VZ3 is floating.
+WARNING: Node U1:U_TF:VZ4 is floating.
+WARNING: Node U1:17 is floating.
+
+WARNING: Less than two connections to node NC_01.  This node is used by R4.
+Direct Newton iteration for .op point succeeded.
+Changing Tseed to 1e-008
+Heightened Def Con from 1.00005e-008 +++++++++++++++++++++++++++++++to 1.30005e-008
+Heightened Def Con from 1.30005e-008 to 1.30025e-008
+Heightened Def Con from 1.30029e-008 +++++++++++++++++++++++++++++++to 1.60029e-008
+Heightened Def Con from 1.60029e-008 ++++++++++++to 1.60029e-008
+Heightened Def Con from 1.6003e-008 ++++++++++++++++++++++++++++++to 1.9003e-008
+Heightened Def Con from 1.90033e-008 ++++++++++++++++++++++++++++++to 2.20033e-008
+Heightened Def Con from 2.20035e-008 ++++++++++++++++++++++++++++++to 2.20037e-008
+Heightened Def Con from 2.20043e-008 ++++++++++++++++++++++++++++++to 2.50043e-008
+Heightened Def Con from 2.50044e-008 ++++++++++++++++++++++++++++++to 2.80044e-008
+Heightened Def Con from 2.80045e-008 ++++++++++++++++++++++++++++++to 3.10045e-008
+Heightened Def Con from 3.10045e-008 to 3.10045e-008
+Heightened Def Con from 3.10046e-008 +++++++++++++++++++++++++++++++to 3.40046e-008
+Heightened Def Con from 3.40046e-008 +++++++++to 3.40046e-008
+Heightened Def Con from 3.40046e-008 ++++++++++++++++++++++++++++++to 3.40202e-008
+Heightened Def Con from 3.40202e-008 to 3.40203e-008
+Heightened Def Con from 3.40203e-008 ++++++++++++++++++++++++++++++to 3.41453e-008
+Heightened Def Con from 3.41453e-008 +++++++++++++++++++++++++++++++to 3.71453e-008
+Heightened Def Con from 3.71453e-008 ++++++++to 3.71454e-008
+Heightened Def Con from 3.71454e-008 ++++++++++++++++++++++++++++++to 4.01454e-008
+Heightened Def Con from 4.01454e-008 +++++++++++++++++++to 4.01454e-008
+Heightened Def Con from 4.01454e-008 ++++++++++++++++++++++++++++++to 4.31454e-008
+Heightened Def Con from 1.23247e-006 to 1.23247e-006
+Heightened Def Con from 1.23479e-006 ++++++++++++++++++++++++++++++++++++++++++++++++++Fatal Error: Analysis:  Time step too small; time = 1.23479e-006, timestep = 1.25e-019: trouble with u1:d4:idiode-instance d:u1:d4:1
+
