@@ -1,0 +1,27 @@
+PCAD Importer Log
+Project : LM3886TF.LibPkg
+
+Section : C:\Users\Eren\Downloads\LM3886TF\LM3886TF.lia
+    Section : PCB Library - LM3886TF.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token LM3886TF On Line 125
+            Warning - 1 : Skipping Token attachedSymbol On Line 270
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - LM3886TF.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token padStyleDef On Line 21
+            Warning - 1 : Skipping Token multiLayer On Line 96
+            Warning - 1 : Skipping Token layerContents On Line 109
+            Warning - 1 : Skipping Token layerContents On Line 115
+        EndSection
+
+        Section : Generating SCH Library - LM3886TF.SchLib
+        EndSection
+    EndSection
+EndSection
