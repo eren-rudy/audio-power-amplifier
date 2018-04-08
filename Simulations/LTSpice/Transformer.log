@@ -2,20 +2,20 @@ Circuit: * D:\Program Files (xtra)\all\CoolStuff\audio-power-amplifier\Simulatio
 
 .OP point found by inspection.
 
-Date: Tue Apr 03 21:36:00 2018
-Total elapsed time: 0.092 seconds.
+Date: Sun Apr 08 18:38:20 2018
+Total elapsed time: 0.080 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 3034
-traniter = 3034
-tranpoints = 1214
-accept = 1172
-rejected = 42
+totiter = 3063
+traniter = 3063
+tranpoints = 1208
+accept = 1165
+rejected = 43
 matrix size = 11
 fillins = 2
 solver = Normal
-Matrix Compiler1: 610 bytes object code size  0.2/0.1/[0.1]
-Matrix Compiler2: off  [0.1]/0.2/0.1
+Matrix Compiler1: 610 bytes object code size  0.2/0.0/[0.0]
+Matrix Compiler2: 827 bytes object code size  0.1/0.2/[0.0]
 
