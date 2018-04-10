@@ -1,9 +1,0 @@
-Output: Bill of Materials
-Type  : BOM
-From  : Variant [[No Variations]] of Project [LM3886 Amplifier Prototype.PrjPcb]
-
-
-Files Generated   : 0
-Documents Printed : 0
-
-Finished Output Generation At 9:01:34 PM On 08/04/2018

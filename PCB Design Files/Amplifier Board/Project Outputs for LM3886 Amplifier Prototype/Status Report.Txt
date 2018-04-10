@@ -1,0 +1,16 @@
+Output: Gerber X2 Files
+Type  : GerberX2
+From  : Project [LM3886 Amplifier Prototype.PrjPcb]
+   Generated File[Prototype Board V1_Copper_Signal_Top.gbr]
+   Generated File[Prototype Board V1_Copper_Signal_Bot.gbr]
+   Generated File[Prototype Board V1_Keep-out.gbr]
+   Generated File[Prototype Board V1_Profile.gbr]
+   Generated File[Prototype Board V1_PTH_Drill.gbr]
+   Generated File[Prototype Board V1.EXTREP]
+   Generated File[Prototype Board V1.REP]
+
+
+Files Generated   : 7
+Documents Printed : 0
+
+Finished Output Generation At 5:58:07 PM On 10/04/2018
