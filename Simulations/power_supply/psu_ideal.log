@@ -1,0 +1,21 @@
+Circuit: * C:\Users\eren\Documents\audio-power-amplifier\Simulations\power_supply\psu_ideal.asc
+
+.OP point found by inspection.
+
+Date: Wed Jun 03 23:21:52 2020
+Total elapsed time: 0.129 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 19912
+traniter = 19912
+tranpoints = 4218
+accept = 3007
+rejected = 1211
+matrix size = 11
+fillins = 2
+solver = Normal
+Matrix Compiler1: 610 bytes object code size  0.1/0.1/[0.1]
+Matrix Compiler2: 827 bytes object code size  0.1/0.1/[0.1]
+
