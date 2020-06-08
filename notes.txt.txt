@@ -1,0 +1,3 @@
+tweeter_final_shematic.png
+- replace Ri for woofer for different gain
+- Include Cc and the HP filter in the feedback loop as nostuff components

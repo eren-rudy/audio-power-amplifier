@@ -1,0 +1,21 @@
+Circuit: * C:\Users\eren\Documents\audio-power-amplifier\sims\power_supply\psu_single_rectifier.asc
+
+.OP point found by inspection.
+
+Date: Sun Jun 07 23:01:38 2020
+Total elapsed time: 0.133 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 12194
+traniter = 12194
+tranpoints = 3360
+accept = 2406
+rejected = 954
+matrix size = 12
+fillins = 6
+solver = Normal
+Matrix Compiler1: 1.38 KB object code size  0.2/0.1/[0.1]
+Matrix Compiler2: 1.14 KB object code size  0.1/0.1/[0.1]
+
