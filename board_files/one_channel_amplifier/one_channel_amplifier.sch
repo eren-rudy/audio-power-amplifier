@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:one_channel_amplifier-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -14,14 +15,41 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Amplifier_Audio:LM3886 U?
+L Amplifier_Audio:LM3886 U1
 U 1 1 5EDEF8D5
 P 4900 3050
-F 0 "U?" H 5244 3096 50  0000 L CNN
+F 0 "U1" H 5244 3096 50  0000 L CNN
 F 1 "LM3886" H 5244 3005 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-220-11_P3.4x5.08mm_StaggerOdd_Lead4.85mm_Vertical" H 4900 3050 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/lm3886.pdf" H 4900 3050 50  0001 C CNN
+F 4 "LM3886T/NOPB" H 4900 3050 50  0001 C CNN "MPN"
 	1    4900 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R1
+U 1 1 5EDEFF6A
+P 3750 2950
+F 0 "R1" V 3545 2950 50  0000 C CNN
+F 1 "1k" V 3636 2950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3790 2940 50  0001 C CNN
+F 3 "~" H 3750 2950 50  0001 C CNN
+F 4 "RES 1K OHM 1% 1/8W 0805" H 3750 2950 50  0001 C CNN "Description"
+F 5 "CRCW08051K00FKEAC" H 3750 2950 50  0001 C CNN "MPN"
+	1    3750 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_POT RV?
+U 1 1 5EE0D429
+P 2750 2950
+F 0 "RV?" H 2680 2996 50  0000 R CNN
+F 1 "10k" H 2680 2905 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3386P_Vertical" H 2750 2950 50  0001 C CNN
+F 3 "~" H 2750 2950 50  0001 C CNN
+F 4 "POT 10K OHM 1/5W PLASTIC LINEAR" H 2750 2950 50  0001 C CNN "Description"
+F 5 "P160KN-0QD15B10K" H 2750 2950 50  0001 C CNN "MPN"
+	1    2750 2950
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

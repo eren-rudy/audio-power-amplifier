@@ -1,4 +1,40 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+LIBS:one_channel_amplifier-cache
+EELAYER 29 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Amplifier_Audio:LM3886 U1
+U 1 1 5EDEF8D5
+P 4900 3050
+F 0 "U1" H 5244 3096 50  0000 L CNN
+F 1 "LM3886" H 5244 3005 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-11_P3.4x5.08mm_StaggerOdd_Lead4.85mm_Vertical" H 4900 3050 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm3886.pdf" H 4900 3050 50  0001 C CNN
+F 4 "LM3886T/NOPB" H 4900 3050 50  0001 C CNN "MPN"
+	1    4900 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R1
+U 1 1 5EDEFF6A
+P 3550 2950
+F 0 "R1" V 3345 2950 50  0000 C CNN
+F 1 "1k" V 3436 2950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3590 2940 50  0001 C CNN
+F 3 "~" H 3550 2950 50  0001 C CNN
+	1    3550 2950
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
