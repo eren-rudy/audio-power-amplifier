@@ -1,4 +1,4 @@
-update=Saturday, June 20, 2020 at 10:37:32 pm
+update=Sunday, June 21, 2020 at 01:53:24 pm
 version=1
 last_client=pcbnew
 [general]
@@ -15,7 +15,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=
+LastNetListRead=one_channel_amplifier.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -32,6 +32,8 @@ TrackWidth1=0.25
 TrackWidth2=0.762
 ViaDiameter1=0.8
 ViaDrill1=0.4
+ViaDiameter2=1.016
+ViaDrill2=0.762
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
