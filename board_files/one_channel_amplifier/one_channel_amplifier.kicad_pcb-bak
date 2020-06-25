@@ -135,7 +135,7 @@
     (descr "TO-220F-11, Vertical, RM 1.7mm, MultiwattF-11, staggered type-1, see http://www.ti.com/lit/ds/symlink/lm3886.pdf")
     (tags "TO-220F-11 Vertical RM 1.7mm MultiwattF-11 staggered type-1")
     (path /5EDEF8D5)
-    (fp_text reference U1 (at -0.635 2.032) (layer F.SilkS)
+    (fp_text reference U1 (at 8.5 -10.7) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LM3886 (at 8.5 2.15) (layer F.Fab)

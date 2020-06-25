@@ -463,7 +463,7 @@ U 1 1 5EDEF8D5
 P 5450 3350
 F 0 "U1" H 5794 3396 50  0000 L CNN
 F 1 "LM3886" H 5794 3305 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-11_P3.4x5.08mm_StaggerOdd_Lead4.85mm_Vertical" H 5450 3350 50  0001 C CIN
+F 2 "one_channel_amplifier:TO-220F-11_P3.4x5.08mm_StaggerOdd_Lead5.08mm_Vertical" H 5450 3350 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/lm3886.pdf" H 5450 3350 50  0001 C CNN
 F 4 "LM3886T/NOPB" H 5450 3350 50  0001 C CNN "MPN"
 	1    5450 3350
