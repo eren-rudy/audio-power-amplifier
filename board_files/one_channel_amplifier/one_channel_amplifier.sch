@@ -729,4 +729,48 @@ Wire Wire Line
 Connection ~ 1100 1050
 Wire Wire Line
 	1100 1050 1100 1100
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5EF7D67C
+P 900 6750
+F 0 "H4" H 1000 6796 50  0000 L CNN
+F 1 "MountingHole" H 1000 6705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 900 6750 50  0001 C CNN
+F 3 "~" H 900 6750 50  0001 C CNN
+	1    900  6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5EF7F593
+P 900 6550
+F 0 "H3" H 1000 6596 50  0000 L CNN
+F 1 "MountingHole" H 1000 6505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 900 6550 50  0001 C CNN
+F 3 "~" H 900 6550 50  0001 C CNN
+	1    900  6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5EF81A4D
+P 900 6350
+F 0 "H2" H 1000 6396 50  0000 L CNN
+F 1 "MountingHole" H 1000 6305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 900 6350 50  0001 C CNN
+F 3 "~" H 900 6350 50  0001 C CNN
+	1    900  6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5EF83F07
+P 900 6150
+F 0 "H1" H 1000 6196 50  0000 L CNN
+F 1 "MountingHole" H 1000 6105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 900 6150 50  0001 C CNN
+F 3 "~" H 900 6150 50  0001 C CNN
+	1    900  6150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
