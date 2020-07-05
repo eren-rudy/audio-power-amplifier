@@ -2240,7 +2240,7 @@
     )
   )
 
-  (gr_text "LM3886 \nAmplifier \nBoard" (at 133.604 106.426) (layer F.SilkS)
+  (gr_text "LM3886 \nAmplifier \nBoard" (at 161.29 106.426) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
   (gr_text "Vout\n" (at 155.829 108.712) (layer F.SilkS)
