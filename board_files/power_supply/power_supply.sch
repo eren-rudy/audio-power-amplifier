@@ -191,20 +191,6 @@ F 6 "P19529CT-ND" H 3700 5950 50  0001 C CNN "Digikey PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP1 C5
-U 1 1 5EFEBF83
-P 4350 5250
-F 0 "C5" H 4465 5296 50  0000 L CNN
-F 1 "1000uF" H 4465 5205 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" H 4350 5250 50  0001 C CNN
-F 3 "~" H 4350 5250 50  0001 C CNN
-F 4 "CAP ALUM 1000UF 20% 50V RADIAL" H 4350 5250 50  0001 C CNN "Description"
-F 5 "ECA-1HM102B" H 4350 5250 50  0001 C CNN "MPN"
-F 6 "P19529CT-ND" H 4350 5250 50  0001 C CNN "Digikey PN"
-	1    4350 5250
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:CP1 C9
 U 1 1 5EFEC613
 P 4350 5950
@@ -330,50 +316,10 @@ Wire Wire Line
 Connection ~ 1450 2750
 Wire Wire Line
 	1450 2750 1450 2700
-Wire Wire Line
-	1950 1300 2500 1300
 Connection ~ 1950 1300
-Wire Wire Line
-	1950 2100 2850 2100
 Connection ~ 1950 2100
-Wire Wire Line
-	1950 2750 2500 2750
-Wire Wire Line
-	2500 2750 2500 2550
 Connection ~ 1950 2750
-Wire Wire Line
-	2500 2250 2500 1300
-Connection ~ 2500 1300
-Wire Wire Line
-	1950 3650 2850 3650
-Wire Wire Line
-	2850 3650 2850 2550
 Connection ~ 1950 3650
-Wire Wire Line
-	2850 2250 2850 2100
-Connection ~ 2850 2100
-$Comp
-L Device:R_US R4
-U 1 1 5F024BDD
-P 2500 2400
-F 0 "R4" H 2568 2446 50  0000 L CNN
-F 1 "0" H 2568 2355 50  0000 L CNN
-F 2 "power_supply:12_Gauge_Jumper" V 2540 2390 50  0001 C CNN
-F 3 "~" H 2500 2400 50  0001 C CNN
-	1    2500 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_US R5
-U 1 1 5F0255EE
-P 2850 2400
-F 0 "R5" H 2918 2446 50  0000 L CNN
-F 1 "0" H 2918 2355 50  0000 L CNN
-F 2 "power_supply:12_Gauge_Jumper" V 2890 2390 50  0001 C CNN
-F 3 "~" H 2850 2400 50  0001 C CNN
-	1    2850 2400
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R_US R2
 U 1 1 5F027164
@@ -418,12 +364,6 @@ F 3 "~" H 3300 3650 50  0001 C CNN
 	1    3300 3650
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3150 2750 2500 2750
-Connection ~ 2500 2750
-Wire Wire Line
-	2850 3650 3150 3650
-Connection ~ 2850 3650
 $Comp
 L Device:R_US R7
 U 1 1 5F03826A
@@ -488,8 +428,6 @@ F 3 "" H 1850 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4350 5400 4350 5600
-Wire Wire Line
 	3700 5400 3700 5600
 Wire Wire Line
 	3000 5400 3000 5600
@@ -523,7 +461,6 @@ Wire Wire Line
 Connection ~ 3700 5600
 Wire Wire Line
 	3700 5600 3700 5650
-Connection ~ 4350 5600
 Wire Wire Line
 	4350 5600 4350 5800
 Wire Wire Line
@@ -537,11 +474,6 @@ Wire Wire Line
 Wire Wire Line
 	3700 5050 3700 5100
 Connection ~ 3000 5050
-Wire Wire Line
-	3700 5050 4350 5050
-Wire Wire Line
-	4350 5050 4350 5100
-Connection ~ 3700 5050
 Wire Wire Line
 	2250 5050 1850 5050
 Wire Wire Line
@@ -571,11 +503,7 @@ Connection ~ 3700 6150
 Wire Wire Line
 	4100 1300 4100 1400
 Wire Wire Line
-	2500 1300 4100 1300
-Wire Wire Line
 	4100 2100 4100 2000
-Wire Wire Line
-	2850 2100 4100 2100
 Wire Wire Line
 	3800 1700 3750 1700
 Wire Wire Line
@@ -1084,4 +1012,102 @@ F 3 "" H 9000 3600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9000 3650 9000 3600
+Connection ~ 3700 5050
+Connection ~ 4350 5600
+Wire Wire Line
+	4350 5050 4350 5100
+Wire Wire Line
+	3700 5050 4350 5050
+Wire Wire Line
+	4350 5400 4350 5600
+$Comp
+L Device:CP1 C5
+U 1 1 5EFEBF83
+P 4350 5250
+F 0 "C5" H 4465 5296 50  0000 L CNN
+F 1 "1000uF" H 4465 5205 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" H 4350 5250 50  0001 C CNN
+F 3 "~" H 4350 5250 50  0001 C CNN
+F 4 "CAP ALUM 1000UF 20% 50V RADIAL" H 4350 5250 50  0001 C CNN "Description"
+F 5 "ECA-1HM102B" H 4350 5250 50  0001 C CNN "MPN"
+F 6 "P19529CT-ND" H 4350 5250 50  0001 C CNN "Digikey PN"
+	1    4350 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 2750 2600 2750
+Wire Wire Line
+	1950 3650 2600 3650
+Wire Wire Line
+	1950 2100 2600 2100
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F203331
+P 2600 1400
+F 0 "TP?" H 2542 1381 50  0000 R CNN
+F 1 "TestPoint" H 2542 1472 50  0000 R CNN
+F 2 "power_supply:12_Gauge_Jumper_one_pad" H 2800 1400 50  0001 C CNN
+F 3 "~" H 2800 1400 50  0001 C CNN
+F 4 "Used for jumping" H 2542 1563 50  0000 R CNN "Description"
+	1    2600 1400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F2060DF
+P 2600 2200
+F 0 "TP?" H 2542 2181 50  0000 R CNN
+F 1 "TestPoint" H 2542 2272 50  0000 R CNN
+F 2 "power_supply:12_Gauge_Jumper_one_pad" H 2800 2200 50  0001 C CNN
+F 3 "~" H 2800 2200 50  0001 C CNN
+F 4 "Used for jumping" H 2542 2363 50  0000 R CNN "Description"
+	1    2600 2200
+	-1   0    0    1   
+$EndComp
+Connection ~ 2600 2100
+Wire Wire Line
+	2600 2100 4100 2100
+Wire Wire Line
+	1950 1300 2600 1300
+Wire Wire Line
+	2600 1400 2600 1300
+Connection ~ 2600 1300
+Wire Wire Line
+	2600 1300 4100 1300
+Wire Wire Line
+	2600 2100 2600 2200
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F2374EB
+P 2600 2850
+F 0 "TP?" H 2542 2831 50  0000 R CNN
+F 1 "TestPoint" H 2542 2922 50  0000 R CNN
+F 2 "power_supply:12_Gauge_Jumper_one_pad" H 2800 2850 50  0001 C CNN
+F 3 "~" H 2800 2850 50  0001 C CNN
+F 4 "Used for jumping" H 2542 3013 50  0000 R CNN "Description"
+	1    2600 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F23E7E6
+P 2600 3750
+F 0 "TP?" H 2542 3731 50  0000 R CNN
+F 1 "TestPoint" H 2542 3822 50  0000 R CNN
+F 2 "power_supply:12_Gauge_Jumper_one_pad" H 2800 3750 50  0001 C CNN
+F 3 "~" H 2800 3750 50  0001 C CNN
+F 4 "Used for jumping" H 2542 3913 50  0000 R CNN "Description"
+	1    2600 3750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2600 2850 2600 2750
+Connection ~ 2600 2750
+Wire Wire Line
+	2600 2750 3150 2750
+Wire Wire Line
+	2600 3650 2600 3750
+Connection ~ 2600 3650
+Wire Wire Line
+	2600 3650 3150 3650
 $EndSCHEMATC
